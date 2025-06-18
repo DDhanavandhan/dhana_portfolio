@@ -22,49 +22,18 @@ export const navLinks = [
 ];
 
 export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with husam was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Abdul Rahman',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Husam\'s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John bradin',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Husam. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Husam was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
+
 ];
 
 export const myProjects = [
   {
-    title: 'Speedline Auto parts',
-    desc: 'GearXpert is a modern ecommerce platform for auto parts built for performance and usability. It helps users quickly find parts for cars and trucks with a sleek, bold UI.',
+    title: 'Strapi ecs deployment',
+    desc: 'A production-ready deployment solution for Strapi CMS using AWS ECS, Terraform, and GitHub Actions with blue/green deployment support',
     subdesc:
-      'Developed with React.js, Tailwind CSS, and modern ecommerce best practices, GearXpert is designed for vehicle enthusiasts and sellers.',
-    href: 'https://speedlineautoparts.netlify.app/',
+      'This project showcases a step-by-step approach to deploying Strapi, a popular headless CMS, on AWS ECS using Docker containers.',
+    href: 'https://github.com/DDhanavandhan/strapi_ecs_deploy',
     texture: '/textures/project/speedline.webp',
-    logo: '/assets/speedline-logo.png',
+    logo: '/assets/strapi-logo.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -74,35 +43,35 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'AWS',
+        path: '/assets/aws.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Terraform',
+        path: 'assets/terraform.png',
       },
      
       {
         id: 3,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Docker',
+        path: '/assets/docker.png',
       },
       {
         id: 4,
-        name: 'gsap',
-        path: '/assets/gsap.png',
+        name: 'github actions',
+        path: '/assets/githubactions.png',
       },
     ],
   },
   {
-    title: 'Tekisky Mart – Vendor-Based Marketplace',
-    desc: 'An advanced eCommerce system supporting multi-vendor capabilities and user dashboards.',
+    title: 'medusa ecommerce',
+    desc: 'This project implements a Medusa e-commerce headless server with automated deployment to AWS ECS using GitHub Actions and Terraform.',
     subdesc:
-      'Full-stack platform built using MERN stack with secure authentication and admin controls.',
-    href: 'https://tekiskymart.com/',
+      'A robust eCommerce platform built with Medusa, featuring a headless architecture and customizable storefront.',
+    href: 'https://github.com/DDhanavandhan/medusa_headless_server',
     texture: '/textures/project/Tekiskymart.webp',
-    logo: '/assets/tekiskyMart-logo.png',
+    logo: '/assets/medusa-logo.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -114,23 +83,23 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'aws',
+        path: '/assets/aws.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Terraform',
+        path: 'assets/terraform.png',
       },
       {
         id: 3,
-        name: 'Node.js',
-        path: '/assets/nodejs.png',
+        name: 'docker',
+        path: '/assets/docker.png',
       },
       {
         id: 4,
-        name: 'express.js',
-        path: '/assets/express.png',
+        name: 'github actions',
+        path: '/assets/githubactions.png',
       },
       {
         id: 5,
@@ -141,11 +110,11 @@ export const myProjects = [
   }
   ,
   {
-    title: 'GoGroove – Trendy Online Store',
-    desc: 'A vibrant and engaging eCommerce website with smooth UX and powerful UI, perfect for digital retail.',
+    title: 'ci/cd pipeline for store',
+    desc: 'This project implements a robust CI/CD pipeline for an e-commerce store, featuring infrastructure as code, containerization, and automated deployments on AWS infrastructure.',
     subdesc:
-      'Created using the MERN stack with responsive design and smooth animations.',
-    href: 'https://your-gogroove-link.com',
+      'the technolgies used in the project were github,terraform,jenkins,sonarqube,docker,trivy,eks,promotheus,grafana.',
+    href: 'https://github.com/DDhanavandhan/ci-cd-pipeline_for_store',
     texture: '/textures/project/GoGroove.webp',
     logo: '/assets/G.png',
     logoStyle: {
@@ -157,28 +126,33 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'jenkins',
+        path: '/assets/jenkins.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'aws',
+        path: 'assets/aws.png',
       },
       {
         id: 3,
-        name: 'Node.js',
-        path: '/assets/nodejs.png',
+        name: 'terraform',
+        path: '/assets/terraform.png',
       },
       {
         id: 4,
-        name: 'express.js',
-        path: '/assets/express.png',
+        name: 'prometheus',
+        path: '/assets/promotheus.png',
+      },
+      {
+        id: 4,
+        name: 'docker',
+        path: '/assets/docker.png',
       },
       {
         id: 5,
-        name: 'mongodb.png',
-        path: '/assets/mongodb.png',
+        name: 'kubernetes',
+        path: '/assets/kubernetes.png',
       },
     ],
   },
@@ -201,11 +175,11 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Tekisky pvt ltd',
-    pos: 'full-stack web developer',
-    duration: '2021 - Present',
-    title: "Tekisky is my go-to playground for crafting interactive prototypes — turning static designs into immersive experiences that stakeholders can click through, feel, and believe in before a single line of code is written.",
-    icon: '/assets/tekisky-logo.png',
+    name: 'pearlthoughts',
+    pos: 'devops engineer trainee',
+    duration: 'april-may 2025',
+    title: "As a DevOps Engineer Trainee at PearlThoughts, I have been actively involved in automating and deploying cloud-native applications using industry-standard DevOps tools and practices. My responsibilities included end-to-end CI/CD pipeline implementation, infrastructure provisioning, and container orchestration.",
+    icon: '/assets/pearl.png',
     animation: 'victory',
   },
 
