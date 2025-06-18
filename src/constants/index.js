@@ -33,7 +33,7 @@ export const myProjects = [
       'This project showcases a step-by-step approach to deploying Strapi, a popular headless CMS, on AWS ECS using Docker containers.',
     href: 'https://github.com/DDhanavandhan/strapi_ecs_deploy',
     texture: '/textures/project/speedline.webp',
-    logo: '/assets/strapi-logo.png',
+    logo: '/assets/strapi.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -71,7 +71,7 @@ export const myProjects = [
       'A robust eCommerce platform built with Medusa, featuring a headless architecture and customizable storefront.',
     href: 'https://github.com/DDhanavandhan/medusa_headless_server',
     texture: '/textures/project/Tekiskymart.webp',
-    logo: '/assets/medusa-logo.png',
+    logo: '/assets/medusa.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:

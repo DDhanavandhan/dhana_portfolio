@@ -23,9 +23,9 @@ const Hero = () => {
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col mt-36 lg:mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          Hi, I'm Husam 
+          Hi, I'm DHANAVANDHAN 
         </p>
-        <p className="hero_tag text-white font-thin">I craft next-gen UX.</p>
+        <p className="hero_tag text-white font-thin">A passionate DevOps engineer.</p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
